@@ -1,0 +1,26 @@
+<footer class="site-footer">
+  <div class="footer-bars" aria-hidden="true">........................................................</div>
+  <div class="footer-line">
+    <span>&copy; {{ 'now' | date: "%Y" }} {{ site.author.name }}</span>
+    <span>·</span>
+    <a href="mailto:{{ site.author.email }}">email</a>
+    {% if site.author.github %}
+      <span>·</span>
+      <a href="https://github.com/{{ site.author.github }}" rel="me noopener">github</a>
+    {% endif %}
+    {% if site.author.linkedin and site.author.linkedin != "" %}
+      <span>·</span>
+      <a href="https://www.linkedin.com/in/{{ site.author.linkedin }}" rel="me noopener">linkedin</a>
+    {% endif %}
+    {% if site.author.scholar and site.author.scholar != "" %}
+      <span>·</span>
+      <a href="https://scholar.google.com/citations?user={{ site.author.scholar }}" rel="me noopener">scholar</a>
+    {% endif %}
+    {% if site.author.twitter and site.author.twitter != "" %}
+      <span>·</span>
+      <a href="https://twitter.com/{{ site.author.twitter }}" rel="me noopener">twitter</a>
+    {% endif %}
+    <span>·</span>
+    <a href="{{ '/feed.xml' | relative_url }}">rss</a>
+  </div>
+</footer>

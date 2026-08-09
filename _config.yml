@@ -1,0 +1,55 @@
+title: Ambuj Choudha
+tagline: Computer vision & ML engineer
+description: >-
+  Ambuj Choudha — early-career ML / computer vision engineer.
+  Projects, writing, and resume.
+url: "https://ambuj-choudha.github.io"
+baseurl: ""
+
+author:
+  name: Ambuj Choudha
+  email: ambujchoudha@outlook.com
+  # Fill these in — they drive the footer social links and SEO tags
+  github: ambuj-choudha
+  linkedin: ""            # e.g. "ambuj-choudha"
+  scholar: ""             # Google Scholar user ID, e.g. "abc123XYZ"
+  twitter: ""             # optional handle, no @
+
+# Consumed by jekyll-seo-tag for Open Graph / Twitter cards.
+# Drop the images into assets/img/ to enable them.
+logo: /assets/img/avatar.png
+image: /assets/img/og-card.png
+
+social:
+  name: Ambuj Choudha
+  links:
+    - https://github.com/ambuj-choudha
+
+permalink: /blog/:year/:month/:day/:title/
+
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  syntax_highlighter: rouge
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - node_modules
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: default

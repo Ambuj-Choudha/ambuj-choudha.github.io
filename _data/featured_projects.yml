@@ -1,0 +1,20 @@
+# Featured projects shown on the home page.
+# Add 1–2 top projects here. The full list lives in projects.md.
+#
+# Each entry:
+#   title:   Project name
+#   year:    "2025"
+#   stack:   "pytorch, tensorrt, opencv"
+#   result:  Headline metric — the ONE number a hiring manager scans for.
+#            e.g. "127 FPS on Jetson Nano via TensorRT FP16"
+#   summary: Two sentences: what it does and why it mattered.
+#   link:    URL to the write-up or GitHub
+
+# - title:  Real-time perception pipeline
+#   year:   "2025"
+#   stack:  "pytorch, tensorrt, cuda"
+#   result: "127 FPS at 640×640, mAP 0.83 on custom dataset"
+#   summary: >
+#     Full-stack perception engine using YOLOv8 + SORT. Optimized with
+#     TensorRT FP16 quantization to hit real-time on edge hardware.
+#   link:   https://github.com/ambuj-choudha/example
